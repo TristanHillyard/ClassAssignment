@@ -6,12 +6,11 @@ namespace ClassAssignment
 {
     public class MathMeth
     {
-        public MathMeth()
+        public int Math(int num1)
         {
             int result;
-            result = (num1 + 10);
+            result = num1 * 2;
             return result;
         }
-        public int num1 { get; set; }
     }
 }
