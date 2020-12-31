@@ -12,6 +12,10 @@ namespace ClassAssignment
             MathMeth math = new MathMeth();
             math.Math(num1);
             Console.WriteLine(math.Math(num1));
+            math.MathA(num1);
+            Console.WriteLine(math.MathA(num1));
+            math.MathS(num1);
+            Console.WriteLine(math.MathS(num1));
             
              
         }
